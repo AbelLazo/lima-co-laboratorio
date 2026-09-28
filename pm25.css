@@ -1,0 +1,21 @@
+#pm25 .pm-intro {max-width:850px;line-height:1.65}
+#pm25 .pm-controls {display:flex;gap:20px;align-items:end;flex-wrap:wrap;margin:24px 0}
+#pm25 .pm-controls label {display:grid;gap:8px;min-width:230px}
+#pm25 .pm-grid {display:grid;grid-template-columns:1fr 1fr;gap:20px;margin:20px 0}
+#pm25 .pm-grid>* {min-width:0}
+#pm25 .pm-chart {display:block;width:100%;height:auto}
+#pm25 .pm-chart text {fill:#bfd0dd;font:12px system-ui}
+#pm25 .pm-chart .grid {stroke:#304555;stroke-dasharray:3 5}
+#pm25 .pm-legend {display:flex;gap:15px;flex-wrap:wrap;font-size:13px;margin:12px 0}
+#pm25 .pm-result {border-left:3px solid #ffbb68;padding:16px 20px;background:#19232c;line-height:1.6;margin:20px 0}
+#pm25 .pm-steps {display:flex;gap:12px;flex-wrap:wrap;margin:20px 0}
+#pm25 .pm-steps span {padding:12px 18px;border:1px solid #344653;border-radius:6px}
+#pm25 .pm-detail {line-height:1.7}
+#pm25 summary {cursor:pointer;padding:8px 0}
+#pm25 a {color:#7ae6d1}
+#pm25 .pm-unavailable {padding:32px;line-height:1.7;color:#ffcc8f}
+#pm25 table {min-width:620px}
+#pm25 .pm-scroll {overflow:auto}
+#pm25 .pm-table-current {background:#19313a}
+#pm25 .pm-chart:focus {outline:2px solid #54dfc4}
+@media(max-width:1000px){#pm25 .pm-grid{grid-template-columns:1fr}}
